@@ -10,6 +10,7 @@
 
 (struct move (from to) #:transparent)
 
+
 ;; using "laziness" with Racket streams
 ;; (stream-cons ..) is a trick to preserve laziness
 ;; see Jay's post for explanation
