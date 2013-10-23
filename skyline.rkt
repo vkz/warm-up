@@ -64,3 +64,5 @@
   (check-equal?
    (skyline (shuffle (append* (build-list j (λ (_) in)))))
    out))
+
+`(font-lock-constant-face ((t (:foreground ,azenburn-light-blue))))
